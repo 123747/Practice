@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOUL FREE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module">
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'neon-cyan': '#00ffea',
+              'space-blue': '#02020a',
+            },
+            fontFamily: {
+              sans: ['PingFang SC', 'Microsoft YaHei', 'sans-serif'],
+            },
+            textShadow: {
+              glow: '0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 15px #00ffea, 0 0 20px #00ffea',
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #02020a;
+        color: #fff;
+        font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        overflow: hidden;
+      }
+      .lil-gui.root {
+        top: 80px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lil-gui": "https://esm.sh/lil-gui@^0.21.0",
+    "@mediapipe/tasks-vision": "https://esm.sh/@mediapipe/tasks-vision@^0.10.22-rc.20250304",
+    "three": "https://esm.sh/three@^0.182.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.4.2",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@^3.0.4",
+    "postprocessing": "https://esm.sh/postprocessing@^6.38.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

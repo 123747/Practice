@@ -1,0 +1,7 @@
+{
+  "name": "Copy of SOUL FREE",
+  "description": "An immersive 3D interactive experience using hand gestures to interact with a nebula of text cards, providing a futuristic and sci-fi visual journey.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
